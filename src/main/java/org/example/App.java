@@ -5,6 +5,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.ExtentSparkReporterConfig;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
 
 /**
@@ -22,6 +24,12 @@ public class App
                 .viewOrder()
                 .as(new ViewName[] { ViewName.DASHBOARD, ViewName.TEST })
                 .apply();
+        spark.config(
+                ExtentSparkReporterConfig.builder()
+                        .theme(Theme.DARK)
+                        .documentTitle("MyReport")
+                        .build()
+        );
         extent.attachReporter(spark);
         extent.createTest("MyFirstTest").log(Status.PASS, "This is a logging event for MyFirstTest, and it passed!");
 

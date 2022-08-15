@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Authorization">
+    <test name="login">
+        <parameter name="url" value="http://rls.cartlow.lan/"/>
+        <parameter name="email" value="rls.super.admin@rls.com"/>
+        <parameter name="password" value="123123123"/>
+        <classes>
+            <class name="auth.loginTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
