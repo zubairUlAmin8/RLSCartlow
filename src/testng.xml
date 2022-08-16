@@ -5,7 +5,7 @@
     <test name="login">
         <parameter name="url" value="http://rls.cartlow.lan/"/>
         <parameter name="email" value="rls.super.admin@rls.com"/>
-        <parameter name="password" value="123123123"/>
+        <parameter name="password" value="123456789"/>
         <classes>
             <class name="auth.loginTest"/>
         </classes>
