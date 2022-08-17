@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+import base.driverclass;
 import java.util.concurrent.TimeUnit;
 
 public class loginTest {
@@ -30,7 +30,9 @@ public class loginTest {
     @Parameters("url")
     public void beforeClass(String url) {
         WebDriverManager.chromedriver().setup();
-        driver=new ChromeDriver();
+
+        driver=driverclass.getDriver();
+        driver=driverclass.getDriver();
         driver.get(url);
     }
     @AfterClass
