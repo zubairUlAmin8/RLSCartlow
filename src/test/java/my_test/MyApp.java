@@ -1,4 +1,7 @@
 package my_test;
 
-public class MyApp {
+import base_test.BaseTest;
+
+public class MyApp extends BaseTest {
+
 }

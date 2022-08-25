@@ -7,7 +7,7 @@
         <parameter name="email" value="rls.super.admin@rls.com"/>
         <parameter name="password" value="123456789"/>
         <classes>
-            <class name="auth.loginTest"/>
+            <class name="base_test.BaseTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
