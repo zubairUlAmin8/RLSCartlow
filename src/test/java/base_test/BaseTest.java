@@ -11,6 +11,6 @@ public class BaseTest {
     @Test
     private void openWebsite(){
         driver=DriverSetup.getDriver();
-        driver.get("http://rls.cartlow.lan/login");
+        driver.get("http://web.cartlow.net/");
     }
 }
