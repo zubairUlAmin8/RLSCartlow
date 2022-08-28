@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Authorization">
+    <listeners>
+<!--        <listener class-name="Analyzer.MyTransformer"/>-->
+    </listeners>
+
     <test name="login">
         <parameter name="url" value="http://rls.cartlow.lan/"/>
         <parameter name="email" value="rls.super.admin@rls.com"/>
