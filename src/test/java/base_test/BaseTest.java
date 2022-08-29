@@ -1,26 +1,31 @@
 package base_test;
-
-import Analyzer.RetryAnalyzer;
+import Utils.utility;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-import utlis.DriverSetup;
+import page_object.BasePage;
 
-public class BaseTest {
-    SoftAssert soft;
-    WebDriver driver;
+import java.io.IOException;
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
-    private void openWebsite(){
-        driver=DriverSetup.getDriver();
-        driver.get("http://web.cartlow.net/");
-//        soft.assertEquals("true", "false");
+public class BaseTest{
+    BasePage basePage=new BasePage();
+
+    @BeforeClass
+    public WebDriver getDriver(){
+        return basePage.getDriver();
     }
+
     @Test
-    private void myprint(){
-//        soft.assertEquals("true", "true");
-
-
+    public void OpenBrowser() throws IOException {
+        String url_Address= utility.getValue("url");
+        basePage.loadPage(url_Address);
     }
-}
+    @AfterTest
+    public void closeDriver(){
+//    getDriver().close();
+    }
+
+ }
+
+
