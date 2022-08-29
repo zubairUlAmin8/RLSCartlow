@@ -3,9 +3,11 @@ package webTestCase;
 import Utils.utility;
 import base_test.BaseTest;
 import org.testng.annotations.Test;
+import page_object.Dashboard;
 import page_object.LoginPage;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class verifyUserLogin extends BaseTest {
 
@@ -18,6 +20,7 @@ public class verifyUserLogin extends BaseTest {
         loginPage.userEmailAddress(userEmail);
         loginPage.userPassword(userPassword);
         loginPage.clickContinue();
+
 
     }
 
