@@ -1,1 +1,0 @@
-{"uuid":"2a9d5dda-ba1a-4d3e-9c5c-811ed1be53a1","name":"webTestCase.verifyCreateRMA","children":["502e6276-e643-4aca-82ff-ff0a119a75a5"],"befores":[{"name":"getDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661836216370,"stop":1661836216370}],"afters":[],"start":1661836212314,"stop":1661836227455}

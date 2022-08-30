@@ -1,1 +1,0 @@
-{"uuid":"769f6a39-2fd7-4ae9-a291-b0b7839d029d","name":"webTestCase.VerifyOpenWeb","children":["35e954ea-d77d-4bcd-a7f1-493e16090850"],"befores":[{"name":"getDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661779793479,"stop":1661779793484}],"afters":[],"start":1661779793441,"stop":1661779800898}
