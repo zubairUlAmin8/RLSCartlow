@@ -27,4 +27,9 @@ public class verifyCreateRMA extends BaseTest {
         Boolean check=returnManageSystem.openRmaCheck();
         Assert.assertTrue(check);
     }
+
+    @Test (priority = 3)
+    void selectRequestType() throws IOException {
+        returnManageSystem.createRequestForReturnOrder();
+    }
 }

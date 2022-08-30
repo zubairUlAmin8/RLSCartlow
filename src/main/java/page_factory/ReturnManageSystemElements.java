@@ -13,6 +13,23 @@ public class ReturnManageSystemElements {
         this.driver=driver;
         PageFactory.initElements(driver, this);
     }
+
     @FindBy(xpath = ReturnManageSystemOR.rmaHeader)
     public WebElement rmaHeader;
+
+    @FindBy(id = ReturnManageSystemOR.orderID)
+    public WebElement orderID;
+
+    @FindBy(id = ReturnManageSystemOR.orderEmail)
+    public WebElement orderEmail;
+
+    @FindBy(id = ReturnManageSystemOR.orderPhone)
+    public WebElement orderPhone;
+
+    @FindBy(id = ReturnManageSystemOR.requestType)
+    public WebElement requestType;
+
+    @FindBy(xpath = ReturnManageSystemOR.searchButton)
+    public WebElement searchButton;
+
 }
