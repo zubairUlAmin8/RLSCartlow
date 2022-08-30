@@ -10,7 +10,7 @@ public class ReturnManageSystem extends BasePage {
     ReturnManageSystemElements returnManageSystemElements= new ReturnManageSystemElements(getDriver());
 
     public boolean openRmaCheck() throws IOException {
-        Boolean status=false;
+        boolean status=false;
         String headerTextCheck= returnManageSystemElements.rmaHeader.getText();
 
         if(headerTextCheck.equals(utility.getValue("headerText"))){
@@ -33,7 +33,7 @@ public class ReturnManageSystem extends BasePage {
     public void enterOrderEmail() throws IOException {
         returnManageSystemElements.orderEmail.sendKeys(utility.getValue("orderEmail"));
     }
-    public void clickOnSearchButton() throws IOException {
+    public void clickOnSearchButton()  {
         returnManageSystemElements.searchButton.click();
     }
     public void createRequestForReturnOrder() throws IOException {
