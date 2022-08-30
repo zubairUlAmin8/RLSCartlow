@@ -11,7 +11,7 @@
         <classes>
             <class name="webTestCase.VerifyOpenWeb"/>
             <class name="webTestCase.verifyUserLogin"/>
-            <class name="webTestCase.VerifyCreateRMA"/>
+            <class name="webTestCase.verifyCreateRMA"/>
         </classes>
     </test> <!-- Test -->
 

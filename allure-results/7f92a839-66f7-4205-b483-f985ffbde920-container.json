@@ -1,0 +1,1 @@
+{"uuid":"7f92a839-66f7-4205-b483-f985ffbde920","name":"webTestCase.verifyUserLogin","children":["2c39991a-70ab-4d0b-9889-3eb90d3cc283"],"befores":[{"name":"getDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1661845380536,"stop":1661845380536}],"afters":[],"start":1661845376990,"stop":1661845389012}

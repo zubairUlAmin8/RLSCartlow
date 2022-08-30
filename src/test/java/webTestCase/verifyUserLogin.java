@@ -20,8 +20,6 @@ public class verifyUserLogin extends BaseTest {
         loginPage.userEmailAddress(userEmail);
         loginPage.userPassword(userPassword);
         loginPage.clickContinue();
-
-
     }
 
 }
