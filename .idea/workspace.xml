@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0254d80a-d2cd-4679-a03f-a6fcf19a293b" name="Changes" comment="new changes">
+      <change afterPath="$PROJECT_DIR$/allure-results/122e220f-463b-465b-960e-291fbecd1d8c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/167cbce4-07e7-444f-8504-79bcf09c8d3a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2119000e-4303-4d65-9218-d2fa6b093900-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/39e31efe-ae99-4221-bf85-62eef2fd40b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8e3ae2f8-4cba-45bb-9380-8908bcf4f80b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0314205-3a42-4028-a5aa-5b66bf9f24c3-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/ReturnManageSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/ReturnManageSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/object_repo/FrontStoreOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object_repo/FrontStoreOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_factory/FrontStoreElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_factory/FrontStoreElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/FrontStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/FrontStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyOrderProductFrontStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyOrderProductFrontStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661868979055</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new changes">
+      <created>1661869027226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869027226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
