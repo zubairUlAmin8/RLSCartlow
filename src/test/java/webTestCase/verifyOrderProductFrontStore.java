@@ -21,5 +21,4 @@ public class verifyOrderProductFrontStore extends BaseTest {
         frontStore.gotoCheckoutpageCartDropDrown();
         frontStore.clickOnCheckOutButton();
     }
-
 }
