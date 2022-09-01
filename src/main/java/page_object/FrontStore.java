@@ -1,18 +1,24 @@
 package page_object;
 
 
+
 import Utils.utility;
 import Utils.waits;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
+
+
 import org.openqa.selenium.interactions.Actions;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import page_factory.FrontStoreElements;
 
+
 import java.io.IOException;
+
+
 import java.time.Duration;
 
 
@@ -23,6 +29,7 @@ public class FrontStore extends BasePage {
     public void clickOnAddToCart(){
         frontStoreElements.addToCartButton.click();
     }
+
     public void clickOnCheckOutButton(){
 //        frontStoreElements.checkOutButton.click();
 
@@ -61,6 +68,9 @@ public class FrontStore extends BasePage {
     }
 
     public void viewCartItemsItemsDropDown()
+
+    public void gotoCheckoutpageCartDropDrown()
+
     {
         action.moveToElement(frontStoreElements.cartIcon).perform();
 
@@ -101,4 +111,5 @@ public class FrontStore extends BasePage {
         }
 
     }
+
 }
