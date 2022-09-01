@@ -24,4 +24,14 @@ public class FrontStoreElements {
     @FindBy(xpath = FrontStoreOR.checkOutButton)
     public WebElement checkOutButton;
 
+    @FindBy(xpath = FrontStoreOR.userEmail)
+    public WebElement userEmail;
+
+    @FindBy(xpath = FrontStoreOR.userPassword)
+    public WebElement userPassword;
+
+    @FindBy(id = FrontStoreOR.signInButton)
+    public WebElement signInButton;
+
+
 }

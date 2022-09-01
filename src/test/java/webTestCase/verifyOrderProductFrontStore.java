@@ -2,6 +2,8 @@ package webTestCase;
 
 import Utils.utility;
 import base_test.BaseTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import page_object.FrontStore;
 
@@ -16,9 +18,14 @@ public class verifyOrderProductFrontStore extends BaseTest {
     }
 
     @Test(priority = 2)
-    void orderSubmit(){
+    void orderSubmit() throws IOException {
         frontStore.clickOnAddToCart();
-        frontStore.gotoCheckoutpageCartDropDrown();
+        frontStore.gotoCheckoutPageCartDropDrown();
         frontStore.clickOnCheckOutButton();
+        frontStore.enterUserEmailAddress();
+        frontStore.enterUserPassword();
+        frontStore.clickOnSignInButton();
+        frontStore.clickOnCheckOutButton();
+
     }
 }

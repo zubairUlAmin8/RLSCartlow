@@ -1,12 +1,15 @@
 package page_object;
 
 
+import Utils.utility;
+import Utils.waits;
 import org.openqa.selenium.interactions.Actions;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import page_factory.FrontStoreElements;
 
+import java.io.IOException;
 import java.time.Duration;
 
 
@@ -20,7 +23,21 @@ public class FrontStore extends BasePage {
     public void clickOnCheckOutButton(){
         frontStoreElements.checkOutButton.click();
     }
-    public void gotoCheckoutpageCartDropDrown()
+    public void  enterUserEmailAddress() throws IOException {
+        String userEmail= utility.getValue("userEmail");
+      waits.sendKeys(getDriver(), frontStoreElements.userEmail, userEmail,30);
+    }
+
+    public void  enterUserPassword() throws IOException {
+        String userPassword= utility.getValue("userPassword");
+      waits.sendKeys(getDriver(), frontStoreElements.userPassword, userPassword,30);
+    }
+
+  public void  clickOnSignInButton() {
+      frontStoreElements.signInButton.click();
+    }
+
+    public void gotoCheckoutPageCartDropDrown()
     {
         action.moveToElement(frontStoreElements.cartIcon).perform();
 

@@ -5,5 +5,15 @@ public class FrontStoreOR {
     public static final String viewCartItems="//*[@id=\"cart-updater\"]/div/div[1]/div[2]/a[1]"; //xpath
     public static final String cartIcon="//*[@id=\"cart-updater\"]/a"; //xpath
 
-    public  static  final String checkOutButton= "//*[@id=\"cart-container\"]/div/div/aside/div[1]/div/a";
+    public  static  final String checkOutButton= "//*[@id=\"cart-container\"]/div/div/aside/section/div/a";
+
+    public  static  final String userEmail= "//*[@id=\"signin-tab\"]/div/div/div/div[2]/div[2]/input";
+
+    public  static  final String userPassword= "//*[@id=\"signin-tab\"]/div/div/div/div[2]/div[3]/div/input";
+
+    public  static  final String signInButton= "sign-in";       //id
+
+
+
+
 }
