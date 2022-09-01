@@ -33,5 +33,10 @@ public class FrontStoreElements {
     @FindBy(id = FrontStoreOR.signInButton)
     public WebElement signInButton;
 
+    @FindBy(xpath = FrontStoreOR.cashOnDeliveryRadio)
+    public WebElement cashOnDeliveryRadio;
+     @FindBy(xpath = FrontStoreOR.placeOrderButton)
+     public WebElement placeOrderButton;
+
 
 }
