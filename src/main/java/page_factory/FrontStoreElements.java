@@ -21,6 +21,7 @@ public class FrontStoreElements {
     public WebElement viewCartItems;
     @FindBy(xpath = FrontStoreOR.cartIcon)
     public WebElement cartIcon;
+
     @FindBy(xpath = FrontStoreOR.checkOutButton)
     public WebElement checkOutButton;
 
@@ -37,6 +38,7 @@ public class FrontStoreElements {
     public WebElement cashOnDeliveryRadio;
      @FindBy(xpath = FrontStoreOR.placeOrderButton)
      public WebElement placeOrderButton;
+
 
 
 }

@@ -4,6 +4,7 @@ import Utils.utility;
 import base_test.BaseTest;
 import org.testng.annotations.Test;
 import page_object.FrontStore;
+
 import java.io.IOException;
 
 public class verifyOrderProductFrontStore extends BaseTest {
@@ -15,6 +16,7 @@ public class verifyOrderProductFrontStore extends BaseTest {
     }
 
     @Test(priority = 2)
+
     void addToCart(){
         frontStore.clickOnAddToCart();
 
