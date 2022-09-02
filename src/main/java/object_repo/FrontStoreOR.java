@@ -14,7 +14,7 @@ public class FrontStoreOR {
 
     public  static  final String signInButton= "sign-in";       //id
 
-    public  static  final String cashOnDeliveryRadio= "//*[@id=\"app\"]/div/div[1]/div/div[2]/section[3]/div[2]/div[3]/div/div[1]/label";       //xpath
+    public  static  final String cashOnDeliveryRadio= "//*[@id=\"app\"]/div/div[1]/div/div[2]/section[3]/div[2]/div[4]/div/div[1]/label";       //xpath
     public  static  final String placeOrderButton= "//*[@id=\"app\"]/div/div[1]/div/div[3]/section/div[2]/a";       //xpath
 
 }

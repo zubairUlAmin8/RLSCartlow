@@ -15,13 +15,6 @@
     </test> <!-- Test -->
 
     <test name="create order from front store">
-        <parameter name="emailId" value="tester456@gmail.com"/>
-        <parameter name="password" value="test@123"/>
-        <classes>
-            <class name="webTestCase.verifyOrderProductFrontStore"/>
-        </classes>
-    </test> <!-- Test -->
-    <test name="create order from front store">
         <classes>
 <!--            <class name="webTestCase.verifyOrderProductFrontStore"/>-->
         </classes>
