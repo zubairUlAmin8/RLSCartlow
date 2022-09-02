@@ -45,5 +45,4 @@ public class verifyOrderProductFrontStore extends BaseTest {
     void placeOrder(){
         frontStore.placeOrderButton();
     }
-
 }
