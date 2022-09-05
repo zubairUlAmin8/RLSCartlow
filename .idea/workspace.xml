@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caba2988-1ebf-42c2-a705-be0346a6aa63" name="Changes" comment="cartlow front store">
-      <change afterPath="$PROJECT_DIR$/screenshoot/ss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/CaptureScreenshoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0814f1a0-b1d9-444f-8c29-355ceb9b9425-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/39ae1dc0-bf14-44b0-886b-b2a297c7d9c2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/47ebd75f-97fb-4b5b-9648-9875cca25e2e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d469702-e56c-450f-ac24-d69b23af8777-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71890886-9686-461b-a12a-6bd56affecb9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/85dfbc13-2699-4a5d-aabb-a924bf31c6e3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a0aee1f4-7dec-409e-96c8-41ef9210f07e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a46dee50-0539-4788-b058-ed36a350da3a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae14bc31-9575-4f2d-b8ef-c0646bb4843b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c5a6eae3-7279-447d-91b0-a822186afc4e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d90ef525-7769-42fd-9aff-b2b938dd018e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/db548d15-acbf-459d-9229-df914ad6f288-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f66b810d-18b4-4b80-b1ab-b3c2eff727cc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fe5638a6-bd86-4304-8160-2053ec14ac72-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProcessOrderFromAdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProcessOrderFromAdminPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshoot/ss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/object_repo/FrontStoreOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object_repo/FrontStoreOR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
