@@ -1,7 +1,9 @@
 package webTestCase;
 
+import Utils.CaptureScreenshoot;
 import Utils.utility;
 import base_test.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import page_object.AdminPanel;
 
@@ -50,9 +52,9 @@ public class verifyProcessOrderFromAdminPanel extends BaseTest {
         adminPanel.clickOnSearchButtonForProductId();
     }
     @Test(priority = 8)
-        void goForRemainingPieces() throws IOException {
+    void goForRemainingPieces() throws IOException {
             adminPanel.goforRemainingPieces();
-        }
+    }
 
 
 }
