@@ -36,5 +36,25 @@ public class AdminPanelElements {
     @FindBy(xpath= AdminPanelOR.orderIdDetailsLinkFromTable)
     public WebElement orderIdDetailsLinkFromTable;
 
+    @FindBy(xpath= AdminPanelOR.markProcessButton)
+    public WebElement markProcessButton;
+
+    @FindBy(xpath= AdminPanelOR.catalogButtonFromMenu)
+    public WebElement catalogButtonFromMenu;
+
+    @FindBy(xpath= AdminPanelOR.productsCatalogDropDownList)
+    public WebElement productsCatalogDropDownList;
+
+    @FindBy(xpath= AdminPanelOR.productIdInputField)
+    public WebElement productIdInputField;
+
+    @FindBy(xpath= AdminPanelOR.searchButtonForProductId)
+    public WebElement searchButtonForProductId;
+
+    @FindBy(xpath= AdminPanelOR.piecesRemainingInventoryCheck)
+        public WebElement piecesRemainingInventoryCheck;
+
+
+
 
 }

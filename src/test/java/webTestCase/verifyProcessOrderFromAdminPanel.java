@@ -22,9 +22,8 @@ public class verifyProcessOrderFromAdminPanel extends BaseTest {
         adminPanel.clickOnSignInButton();
 
     }
-
     @Test(priority = 2)
-    void checkOrders() throws IOException {
+    void checkOrders() {
         adminPanel.goToOrders();
     }
     @Test(priority = 3)
@@ -33,8 +32,27 @@ public class verifyProcessOrderFromAdminPanel extends BaseTest {
         adminPanel.clickOnSearchButtonForOrderId();
     }
     @Test(priority = 4)
-    void goToOrderDetails() throws IOException {
+    void goToOrderDetails() {
         adminPanel.clickOnOrderIdForDetails();
     }
+
+    @Test(priority = 5)
+    void markProcessOrder() {
+        adminPanel.markProcessOrder();
+    }
+    @Test(priority = 6)
+    void goToCatalogProduct() {
+        adminPanel.goToCatalogPage();
+    }
+    @Test(priority = 7)
+    void searchProductAgainstProductId() throws IOException {
+        adminPanel.enterProductId();
+        adminPanel.clickOnSearchButtonForProductId();
+    }
+    @Test(priority = 8)
+        void goForRemainingPieces() throws IOException {
+            adminPanel.goforRemainingPieces();
+        }
+
 
 }

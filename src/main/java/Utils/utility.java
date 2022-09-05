@@ -13,4 +13,5 @@ public class utility {
         String value=prop.getProperty(key);
         return value;
     }
+
 }

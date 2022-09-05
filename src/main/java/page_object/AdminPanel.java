@@ -32,4 +32,26 @@ public class AdminPanel extends BasePage{
     public void clickOnOrderIdForDetails(){
         waits.clickButton(getDriver(), adminPanelElements.orderIdDetailsLinkFromTable, 30 );
     }
+
+    public void markProcessOrder(){
+        adminPanelElements.markProcessButton.click();
+    }
+
+    public void goToCatalogPage(){
+        adminPanelElements.catalogButtonFromMenu.click();
+        waits.clickButton(getDriver(), adminPanelElements.productsCatalogDropDownList, 30);
+    }
+
+    public void enterProductId() throws IOException {
+        System.out.println(utility.getValue("productId"));
+        adminPanelElements.productIdInputField.sendKeys(utility.getValue("productId"));
+
+    }
+    public void clickOnSearchButtonForProductId(){
+        adminPanelElements.searchButtonForProductId.click();
+    }
+    public void goforRemainingPieces(){
+        adminPanelElements.piecesRemainingInventoryCheck.click();
+    }
 }
+
