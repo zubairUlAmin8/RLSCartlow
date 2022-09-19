@@ -54,6 +54,30 @@ public class AdminPanelElements {
     @FindBy(xpath= AdminPanelOR.piecesRemainingInventoryCheck)
         public WebElement piecesRemainingInventoryCheck;
 
+    @FindBy(css= AdminPanelOR.trackingTab)
+        public WebElement trackingTab;
+    @FindBy(xpath= AdminPanelOR.inputFileForLineID)
+        public WebElement inputFileForLineID;
+
+    @FindBy(xpath= AdminPanelOR.packItemButton)
+        public WebElement packItemButton;
+
+    @FindBy(css= AdminPanelOR.shippingTab)
+        public WebElement shippingTab;
+
+    @FindBy(xpath= AdminPanelOR.markAsShippedButton)
+        public WebElement markAsShippedButton;
+    @FindBy(xpath= AdminPanelOR.trackingIdInputField)
+        public WebElement trackingIdInputField;
+    @FindBy(xpath= AdminPanelOR.shippingMethodInputField)
+        public WebElement shippingMethodInputField;
+    @FindBy(xpath= AdminPanelOR.piecesInputField)
+        public WebElement piecesInputField;
+    @FindBy(xpath= AdminPanelOR.updateTrackingButton)
+        public WebElement updateTrackingButton;
+    @FindBy(xpath= AdminPanelOR.selectCourierList)
+        public WebElement selectCourierList;
+
 
 
 

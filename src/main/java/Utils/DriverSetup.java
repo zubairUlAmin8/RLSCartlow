@@ -14,7 +14,7 @@ public class DriverSetup {
 
     }
 
-    public static WebDriver initDrier()
+    public static WebDriver initDriver()
     {
         if(driver == null)
         {

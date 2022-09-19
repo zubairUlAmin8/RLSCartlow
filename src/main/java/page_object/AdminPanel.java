@@ -2,6 +2,7 @@ package page_object;
 
 import Utils.utility;
 import Utils.waits;
+import org.openqa.selenium.support.ui.Select;
 import page_factory.AdminPanelElements;
 
 import java.io.IOException;
@@ -52,6 +53,35 @@ public class AdminPanel extends BasePage{
     }
     public void goforRemainingPieces(){
         adminPanelElements.piecesRemainingInventoryCheck.click();
+    }
+    public void goToShippingTab()
+    {
+        adminPanelElements.shippingTab.click();
+    }
+    public void goToTrackingTab()
+    {
+        adminPanelElements.trackingTab.click();
+    }
+    public void enterLineIdForShipping() throws IOException {
+        adminPanelElements.inputFileForLineID.sendKeys(utility.getValue("lineId"));
+    }
+    public void clickOnPackItems()
+    {
+        adminPanelElements.packItemButton.click();
+    }
+    public void markAsShipped()
+    {
+        adminPanelElements.markAsShippedButton.click();
+    }
+
+    public void fillTrackingForm() throws IOException {
+        adminPanelElements.trackingIdInputField.sendKeys(utility.getValue("trackingId"));
+        adminPanelElements.shippingMethodInputField.sendKeys("Normal");
+        Select courier= new Select(adminPanelElements.selectCourierList);
+        courier.selectByIndex(1);
+        adminPanelElements.piecesInputField.sendKeys("1");
+        adminPanelElements.updateTrackingButton.click();
+
     }
 }
 

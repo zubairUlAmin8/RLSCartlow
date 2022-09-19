@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BasePage {
     public WebDriver getDriver(){
-        return DriverSetup.initDrier();
+        return DriverSetup.initDriver();
     }
     public void loadPage(String base_url){
          getDriver().get(base_url);
