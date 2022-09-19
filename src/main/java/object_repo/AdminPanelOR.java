@@ -25,5 +25,14 @@ public class AdminPanelOR {
     public static final String productIdInputField="//input[@id='id']"; //xpath
     public static final String searchButtonForProductId="//*[@id=\"searchForm\"]/div[4]/div/button"; //xpath
     public static final String piecesRemainingInventoryCheck="//tbody//td[9]/a"; //xpath
-
+    public static final String shippingTab="a#shipping-tab"; //css
+    public static final String inputFileForLineID="//textarea[@name='itemids']"; //xpath
+    public static final String packItemButton="//button[contains(text(),'Pack Items')]"; //xpath
+    public static final String trackingTab="a#tracking-tab"; //css
+    public static final String markAsShippedButton="//a[contains(text(), 'Mark as shipped')]"; //xpath
+    public static final String trackingIdInputField="//input[@name='trackingID']"; //xpath
+    public static final String shippingMethodInputField="//input[@name='shippingMethod']"; //xpath
+    public static final String piecesInputField="//input[@name='pieces']"; //xpath
+    public static final String updateTrackingButton="//button[contains(text(),'Update Tracking')]"; //xpath
+    public static final String selectCourierList="//select[@label='Select courier']"; //xpath
 }
