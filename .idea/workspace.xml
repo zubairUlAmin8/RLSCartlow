@@ -4,167 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caba2988-1ebf-42c2-a705-be0346a6aa63" name="Changes" comment="cartlow front store">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/object_repo/AdminPanelOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object_repo/AdminPanelOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_factory/AdminPanelElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_factory/AdminPanelElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/AdminPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProcessOrderFromAdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProcessOrderFromAdminPanel.java" afterDir="false" />
+    <list default="true" id="488fd000-941b-4c06-bef9-6b43ec0a5679" name="Changes" comment="cartlow front store">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2EzFrVWa81DrdraFFX9kHmnnOO2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/mywork/automation/Selenium/RLSCartlow&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
-  }
-}</component>
-  <component name="RunManager" selected="TestNG.E:/mywork/automation/RLSCartlow/src/testng.xml">
-    <configuration default="true" type="Application" factoryName="Application" singleton="false">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E:/mywork/automation/RLSCartlow/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RLSCartlow" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyProcessOrderFromAdminPanel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RLSCartlow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyProcessOrderFromAdminPanel" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyProcessOrderFromAdminPanel.setpro" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RLSCartlow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyProcessOrderFromAdminPanel" />
-      <option name="METHOD_NAME" value="setpro" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyProcessOrderFromAdminPanel.shipOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RLSCartlow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyProcessOrderFromAdminPanel" />
-      <option name="METHOD_NAME" value="shipOrder" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyProcessOrderFromAdminPanel.testvalue" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RLSCartlow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyProcessOrderFromAdminPanel" />
-      <option name="METHOD_NAME" value="testvalue" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.E:/mywork/automation/RLSCartlow/src/testng.xml" />
-        <item itemvalue="TestNG.verifyProcessOrderFromAdminPanel.shipOrder" />
-        <item itemvalue="TestNG.verifyProcessOrderFromAdminPanel.setpro" />
-        <item itemvalue="TestNG.verifyProcessOrderFromAdminPanel.testvalue" />
-        <item itemvalue="TestNG.verifyProcessOrderFromAdminPanel" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\qasim\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="caba2988-1ebf-42c2-a705-be0346a6aa63" name="Changes" comment="cartlow front store" />
-      <created>1663617677241</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1663617677241</updated>
-    </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
