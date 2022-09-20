@@ -24,8 +24,13 @@ public class AdminPanelElements {
     @FindBy(xpath= AdminPanelOR.homeButtonFromMenu)
     public WebElement homeButtonFromMenu;
 
+    @FindBy(xpath= AdminPanelOR.operationButtonFromMenu)
+    public WebElement operationButtonFromMenu;
+
     @FindBy(xpath= AdminPanelOR.ordersHomeDropDownList)
     public WebElement ordersHomeDropDownList;
+    @FindBy(xpath= AdminPanelOR.shipOrdersOperationDropdownList)
+    public WebElement shipOrdersOperationDropdownList;
 
     @FindBy(xpath= AdminPanelOR.orderIdInputField)
     public WebElement orderIdInputField;
@@ -77,8 +82,13 @@ public class AdminPanelElements {
         public WebElement updateTrackingButton;
     @FindBy(xpath= AdminPanelOR.selectCourierList)
         public WebElement selectCourierList;
-
-
-
+    @FindBy(css= AdminPanelOR.selectCourierListOnOperationTab)
+        public WebElement selectCourierListOnOperationTab;
+    @FindBy(css= AdminPanelOR.scanOrderIdInputField)
+        public WebElement scanOrderIdInputField;
+    @FindBy(css= AdminPanelOR.shipAndExportButton)
+        public WebElement shipAndExportButton;
+    @FindBy(css= AdminPanelOR.markAsDeliveredButton)
+        public WebElement markAsDeliveredButton;
 
 }

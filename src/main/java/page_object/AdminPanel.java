@@ -2,6 +2,7 @@ package page_object;
 
 import Utils.utility;
 import Utils.waits;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.Select;
 import page_factory.AdminPanelElements;
 
@@ -81,8 +82,33 @@ public class AdminPanel extends BasePage{
         courier.selectByIndex(1);
         adminPanelElements.piecesInputField.sendKeys("1");
         adminPanelElements.updateTrackingButton.click();
+    }
+    public void shipOrder() throws IOException {
+        adminPanelElements.operationButtonFromMenu.click();
+        waits.clickButton(getDriver(),adminPanelElements.shipOrdersOperationDropdownList,20);
+        Select courier = new Select(adminPanelElements.selectCourierListOnOperationTab);
+        courier.selectByVisibleText("Shipox UAE");
+        adminPanelElements.scanOrderIdInputField.sendKeys(utility.getValue("orderId"));
+        adminPanelElements.shipAndExportButton.click();
 
     }
+    public void markAsDelivered() throws InterruptedException {
+        adminPanelElements.markAsDeliveredButton.click();
+        // Switching to Alert
+        Alert alert = getDriver().switchTo().alert();
+
+        // Capturing alert message.
+        String alertMessage= getDriver().switchTo().alert().getText();
+
+        // Displaying alert message
+        System.out.println(alertMessage);
+        Thread.sleep(5000);
+
+        // Accepting alert
+        alert.accept();
+    }
+
+
 }
 
     

@@ -6,6 +6,8 @@ public class AdminPanelOR {
     public static final String signInButton="//button[@type='submit']"; //id
 
     public static final String homeButtonFromMenu="//a[contains(text(), ' Home') and @id='dropdown01']"; //xpath
+    public static final String operationButtonFromMenu="//a[contains(text(), ' Operation') and @id='dropdown01']"; //xpath
+    public static final String shipOrdersOperationDropdownList="//a[contains(@href, 'http://admin.cartlow.lan/operation/ship-orders')]"; //xpath
 
 
     //home
@@ -35,4 +37,8 @@ public class AdminPanelOR {
     public static final String piecesInputField="//input[@name='pieces']"; //xpath
     public static final String updateTrackingButton="//button[contains(text(),'Update Tracking')]"; //xpath
     public static final String selectCourierList="//select[@label='Select courier']"; //xpath
+    public static final String selectCourierListOnOperationTab="select#courier"; //css
+    public static final String scanOrderIdInputField="textarea[name='orderIDs']"; //css
+    public static final String shipAndExportButton="button[type='submit']"; //css
+    public static final String markAsDeliveredButton="a.btn.btn-outline-primary.btn-sm:first-of-type"; //css
 }

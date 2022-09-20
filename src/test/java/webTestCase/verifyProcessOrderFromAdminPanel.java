@@ -71,16 +71,30 @@ public class verifyProcessOrderFromAdminPanel extends BaseTest {
 //        adminPanel.goToShippingTab();
 //        adminPanel.enterLineIdForShipping();
 //        adminPanel.clickOnPackItems();
-        adminPanel.markAsShipped();
+//        adminPanel.markAsShipped();
 
     }
 
     @Test(priority = 10)
     void updateTrackingOrderDetails() throws IOException {
 //        adminPanel.goToTrackingTab();
-        adminPanel.fillTrackingForm();
+//        adminPanel.fillTrackingForm();
 
     }
+    @Test(priority =11)
+    void shipOrder() throws IOException {
+        adminPanel.shipOrder();
+    }
+    @Test(priority = 12)
+    void markedAsShipped() throws IOException, InterruptedException {
+        adminPanel.goToOrders();
+        adminPanel.enterOrderId();
+        adminPanel.clickOnSearchButtonForOrderId();
+        adminPanel.clickOnOrderIdForDetails();
+        adminPanel.markAsDelivered();
+    }
+
+
 }
 
 
